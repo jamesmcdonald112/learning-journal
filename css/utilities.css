@@ -1,0 +1,27 @@
+/* Utilities CSS */
+
+/* Spacing */
+.mt-1 {margin-top: 0.5em;}
+.mt-2 {margin-top: 1em;}
+.mt-3 {margin-top: 1.5em;}
+.mb-1 {margin-top: 0.5em;}
+.mb-2 {margin-top: 1em;}
+.mb-3 {margin-top: 1.5em;}
+
+/* Padding */
+.p-1 {padding: 0.5em;}
+.p-2 {padding: 1em;}
+.p-3 {padding: 1.5em;}
+
+/* Typography */
+.text-sm {font-size: 0.75rem;}
+
+/* Layout */
+.container {width: 90%; max-width: 1200px; margin: 0 auto;}
+.flex {display: flex;}
+.grid {display: grid; gap: 1em;}
+.grid-3 {grid-template-columns: repeat(3, 1fr);}
+
+/* Image */
+.img-fluid {max-width: 100%; height: auto; display: block;}
+

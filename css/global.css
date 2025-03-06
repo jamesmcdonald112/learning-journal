@@ -1,0 +1,9 @@
+/* Global CSS */
+
+:root {
+    --text-dark: #090909;
+    --text-medium: #151515;
+    --text-white: #FFF;
+    --text-off-white: #D7D7D7;
+    --bg-dark: #202020;
+}

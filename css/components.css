@@ -1,0 +1,67 @@
+/* Components CSS */
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.header__logo {
+   display: flex;
+   align-items: center;
+   color: var(--text-dark);
+}
+
+.header__logo i{
+    margin-right: 0.5em;
+ }
+
+.header__logo h1{
+   font-size: 1rem;
+}
+
+.header__menu {
+    display: flex;
+
+}
+
+.header__menu-item {
+    font-size: 0.75rem;
+    list-style: none;
+    margin-left: 1.5em;
+    font-weight: 500;
+}
+
+.header__menu-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--text-dark);
+    
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    min-height: 6.5rem;
+    padding: 1em 0;
+    
+}
+
+.footer__title {
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.footer__copyright {
+    font-weight: 400;
+    color: var(--text-off-white);
+}
+

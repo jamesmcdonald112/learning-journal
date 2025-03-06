@@ -1,0 +1,32 @@
+/* Home CSS */
+
+.hero {
+    background: var(--hero-bg) center/cover no-repeat;
+    min-height: 40vh;
+    color: var(--text-white);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    gap: 0.25rem;
+}
+
+.hero__date {
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+.hero__title {
+    font-size: 2rem;
+}
+
+.hero__description {
+    font-size: 1rem;
+}
