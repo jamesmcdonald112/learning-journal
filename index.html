@@ -19,12 +19,14 @@
       </section>
 
       <!-- Blog list - Dynamically Generated -->
-      <section id="blog-list" class="blog-list">
-        <!-- Next blog posts here -->
+      <section class="recent-posts container">
+        <div class="recent-posts__grid" id="recent-posts-container">
+          <!-- Recent blog posts here -->
+        </div>
       </section>
 
       <div class="blog-list__more" id="view-more-section">
-        <button>View More</button>
+        <button id="view-more-btn" class="view-more-btn">View More</button>
       </div>
     </main>
 
@@ -32,6 +34,6 @@
     <footer></footer>
 
     <script src="./scripts/script.js" type="module"></script>
-    <script src="scripts/home.js" type="module"></script>
+    <script src="scripts/loadMore.js" type="module"></script>
   </body>
 </html>

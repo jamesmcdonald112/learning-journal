@@ -3,17 +3,36 @@
   <head>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/blog.css" />
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
   </head>
   <body>
-     <!-- Dynamically Generated -->
-     <header></header>
+    <!-- Dynamically Generated -->
+    <header></header>
 
-     <!-- Dynamically Generated -->
-     <footer></footer>
+    <main>
+      <article id="blog-post" class="blog-post">
+        <!-- Post content will be dynamically inserted here -->
+      </article>
+
+      <!-- Blog list - Dynamically Generated -->
+      <section class="recent-posts container">
+        <div class="recent-posts__grid" id="recent-posts-container">
+          <!-- Recent blog posts here -->
+        </div>
+      </section>
+
+      <div class="blog-list__more" id="view-more-section">
+        <button id="view-more-btn" class="view-more-btn">View More</button>
+      </div>
+    </main>
+
+    <!-- Dynamically Generated -->
+    <footer></footer>
     <script src="./scripts/script.js" type="module"></script>
+    <script src="./scripts/blogPage.js" type="module"></script>
   </body>
 </html>

@@ -1,0 +1,65 @@
+/* recent-posts.css */
+.recent-posts {
+    padding-top: 2em;
+}
+
+.recent-posts__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5em;
+
+}
+
+.recent-post {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 0 1em;
+    border-radius: 8px;
+
+}
+
+.recent-post:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15); /* Adds a soft shadow */
+}
+
+
+.recent-post-date, 
+.recent-post__description {
+    color: var(--text-medium);
+}
+
+
+.recent-post-date {
+    margin-top: 1em;
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.recent-post__image {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.recent-post__title {
+    margin: 0.25em 0;
+    color: var(--text-dark);
+    font-size: 1.5rem;
+    line-height: 1.2;
+
+}
+
+.recent-post__description {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+
+}

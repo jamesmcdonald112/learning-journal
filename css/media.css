@@ -29,4 +29,21 @@
     .hero__description {
         font-size: 1.5rem;
     }
+
+    /* Recent posts */
+    .recent-posts .recent-posts__grid {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    /* About */
+    .about .about__header {
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .about .about__img {
+        margin-right: 1em;
+    }
 }

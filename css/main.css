@@ -1,9 +1,10 @@
-/* Main CSS */
+/* Main C */
 
 @import url("components.css");
 @import url("global.css");
-@import url('home.css');
+@import url('hero.css');
 @import url("media.css");
+@import url('recent-posts.css');
 @import url("reset.css");
 @import url("utilities.css");
 

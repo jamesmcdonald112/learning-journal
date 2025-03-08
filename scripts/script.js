@@ -1,6 +1,6 @@
-import { displayHeroPost } from "./recentPosts.js";
+import { displayHeroPost, displayRecentPosts } from "./recentPosts.js";
+import { handleViewMoreClick, handleResizeUpdate } from "./loadMore.js";
 
-// script
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -13,4 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => document.querySelector("footer").innerHTML = data);
 
         displayHeroPost()
+        displayRecentPosts()
+
+        handleViewMoreClick()
+        handleResizeUpdate()
 });
+

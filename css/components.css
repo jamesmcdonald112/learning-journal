@@ -52,6 +52,7 @@
     color: var(--text-white);
     min-height: 6.5rem;
     padding: 1em 0;
+    margin-top: 2em;
     
 }
 
@@ -65,3 +66,38 @@
     color: var(--text-off-white);
 }
 
+
+/* button */
+.blog-list__more {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 2em; 
+}
+
+.view-more-btn {
+    font-size: 1rem;
+    text-decoration: underline;
+    background-color: transparent;
+    color: var(--text-dark);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out; 
+}
+
+.view-more-btn:hover {
+    color: var(--primary);
+    text-decoration: underline; 
+    transform: scale(1.05);
+}
+
+.view-more-btn:focus {
+    outline: 2px solid var(--primary);
+    border-radius: 4px;
+}
+
+.view-more-btn:active {
+    transform: scale(0.98); 
+    color: var(--primary-dark);
+}
